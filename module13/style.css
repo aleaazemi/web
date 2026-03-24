@@ -1,0 +1,44 @@
+a:link{
+    color: rgb(255, 0, 0);
+}
+a:visited{
+    color: rgb(7, 255, 20);
+}
+a:hover{
+    color:hotpink
+}
+a:active{
+    color: blue;
+}
+ul{
+    list-style-type:circle;
+    padding: 0;
+    border:2px solid grey;
+}
+ul li{
+    padding: 8px 16px;
+    border-bottom: 1px solid black;
+}
+ol{
+    list-style-type: lower-alpha;
+    background-color: rgb(255, 148, 201);
+    padding: 15px;
+}
+ol li{
+    background-color: rgb(255, 179, 236);
+    padding: 10px;
+    margin-left: 50px;
+}
+td,th{
+    border:1px solid black;
+    padding:15px;
+}
+table{
+    border-collapse: collapse;
+}
+tbody tr:nth-child(odd){
+    background-color: gray;
+}
+tbody tr:nth-child(even){
+    background-color: gray;
+}

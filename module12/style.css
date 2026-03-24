@@ -1,5 +1,5 @@
 body{
-    background-image: url("fotot/download1.jpg");
+    background-image: url("fotot/foto.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -32,8 +32,8 @@ h4{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .my{
-    color: brown;
+    color: rgb(55, 204, 184);
 }
 #myy{
-    color: blue;
+    color: rgb(190, 33, 252);
 }
