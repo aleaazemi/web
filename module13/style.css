@@ -1,8 +1,8 @@
 a:link{
-    color: rgb(255, 0, 0);
+    color: rgb(253, 152, 231);
 }
 a:visited{
-    color: rgb(7, 255, 20);
+    color: rgb(190, 109, 245);
 }
 a:hover{
     color:hotpink
@@ -29,7 +29,7 @@ ol li{
     padding: 10px;
     margin-left: 50px;
 }
-td,th{
+/* td,th{
     border:1px solid black;
     padding:15px;
 }
@@ -37,8 +37,21 @@ table{
     border-collapse: collapse;
 }
 tbody tr:nth-child(odd){
-    background-color: gray;
+    background-color: rgb(255, 143, 231);
 }
 tbody tr:nth-child(even){
-    background-color: gray;
+    background-color: hotpink;
+} */
+div{
+    overflow: scroll;
+    background-color: hotpink;width: 100%;
+  
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+td,th{
+    border: 2px solid black;
+    text-align: center;
 }
