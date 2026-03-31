@@ -1,0 +1,30 @@
+article p {
+      background-color: rgb(197, 197, 255);
+      color: rgb(0, 0, 0);
+      padding: 20px;
+}
+
+article > p {
+    background-color: lightcoral;
+}
+article ~ p{
+    background-color: mediumorchid;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+article +p{
+    background-color: orange;
+}
+input:invalid {
+   border: 2px solid rgb(255, 10, 10);
+}
+
+input:valid{
+    border: 2px solid green;
+}
+input:in-range{
+    border: 2px solid green;
+}
+input:out-of-range{
+     border: 2px solid rgb(255, 10, 10);
+}
