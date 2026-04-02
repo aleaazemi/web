@@ -1,0 +1,56 @@
+#static {
+    position:static;
+    border: 3px solid rgb(243, 114, 204);
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+}
+#relative {
+    position:relative;
+    border: 3px solid rgb(217, 135, 255);
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    left: 400px;
+    top: 20px;
+}
+#fixed{
+    position:fixed;
+    border: 3px solid rgb(217, 135, 255);
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    left: 400px;
+    top: 800px;
+}
+#fixed1 {
+    position:fixed;
+    top: 30px;
+    left: 450px;
+    margin-top: 735px;
+    margin-right: 5px;
+}
+#parent {
+    position:relative;
+    border: 3px solid rgb(217, 135, 255);
+    width: 250px;
+    height: 250px;
+}
+
+#absolute {
+    position: relative;
+    border: 3px solid hotpink;
+    width: 200px;
+    height: 200px;
+    right: 5px;
+    top: 30px;
+    background-color: rgb(135, 255, 229);
+    color: hotpink;
+}
+#sticky {
+    position:sticky;
+    top: 100px;
+   background-color: rgb(24, 116, 196);
+   padding: 20px;
+   color: rgb(133, 255, 214);
+}
