@@ -63,7 +63,7 @@ body{
     background-color: lemonchiffon;
     width: 100%;
     left: 0;
-    box-shadow: 0px 8px 16px 0px rgb(0, 0, 0); 
+    box-shadow: 0px 8px 16px 0px rgb(20, 103, 211); 
     z-index: 1;
 }
 .dropdown:hover .dropdown-content{
@@ -84,14 +84,36 @@ body{
     text-align: left;
     padding: 16px;
 }
+.column a:hover{
+    background-color: aqua;
+}
+.row::after{
+    content:"";
+    display: table;
+    clear: both;
+}
 
 
-
-
-
-
-
-
-
-
+#vertical-menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: lemonchiffon;
+    width: 25%;
+    position: fixed;
+    height: 100%;
+}
+#vertical-menu li a{
+   color: hotpink;
+   text-decoration: none;
+    display: block;
+    padding: 8px 16px;
+}
+#vertical-menu li a.active{
+    background-color: rgb(157, 236, 241);
+}
+#vertical-menu li a:hover:not(.active){
+ background-color: lightcyan;
+}
 
