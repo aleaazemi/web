@@ -5,7 +5,7 @@
     width: 140px;
 }
 .gallery:hover{
-    border: 2px solid darkblue;
+    border: 2px solid hotpink;
 }
 .gallery  img{
     width: 100%;
@@ -14,4 +14,41 @@
 .desc{
     padding: 15px;
     text-align: center;
+}
+p[class*=ds]{
+    color: crimson;
+    background-color: darkgrey;
+    padding: 20px;
+}
+
+h1[class|=heading]{
+    background-color: cadetblue;
+    color: crimson;
+    padding: 20px;
+}
+div[id ~= ds]{
+    background-color: cadetblue;
+    color: crimson;
+    padding: 20px;
+}
+
+img[title^=blue]{
+      background-color: rgb(53, 185, 185);
+    color: rgb(117, 7, 29);
+    padding: 20px;
+}
+img[title^=blue]{
+      background-color: rgb(53, 185, 185);
+    color: rgb(117, 7, 29);
+    padding: 20px;
+}
+img[title^=blue]{
+      background-color: rgb(53, 185, 185);
+    color: rgb(117, 7, 29);
+    padding: 20px;
+}
+img[title$=sky]{
+      background-color: rgb(48, 94, 94);
+    color: rgb(209, 103, 124);
+    padding: 20px;
 }
