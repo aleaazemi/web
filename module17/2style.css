@@ -1,0 +1,40 @@
+body{
+    counter-reset: number;
+}
+
+h2::before{
+    counter-increment: number;
+    content: counter(number);
+    background-color: blue;
+    border-radius: 15px;
+    padding: 5px 12px;
+    color: bisque;
+    margin: 10px;
+}
+:root{
+    --primary-color:blue;
+    --secondary-color:white;
+    padding: 20px;
+}
+.vars{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: var(--padding);
+}
+.rounded{
+    font-display: flex;
+}
+.rounded #example-three{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    background: url(download.jfif);
+}
+.rounded #example-four{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 5px 60px 10px;
+    background-color: dimgray;
+}
