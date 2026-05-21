@@ -1,0 +1,23 @@
+@media(min-width:500px){
+ body{
+    background-color: aqua;
+    color: white;
+    font-size: large;
+}
+}
+@media(max-width:500px){
+ body{
+    background-color: rgb(226, 50, 19);
+    color: rgb(0, 0, 0);
+}
+}
+@media(min-width:600px) and (max-width:900px){
+    img{
+        display: none;
+    }
+}
+@media(min-width:600px){
+    p{
+        column-count:2 ;
+    }
+}
