@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff0f6;
+    text-align: center;
+    color: #d63384;
+}
+header{
+    background-color: lightpink;
+    padding: 30px;
+    color: black;
+    text-align: center;
+}
+header h1{
+    margin: 0;
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin-left: 25px;
+}
+nav ul li a{
+   text-decoration: none;
+    color: #d63384;
+    font-weight: bold;
+}
+
+.hero{
+    padding: 50px 20px;
+}
+.hero h2{
+    font-size: 48px;
+}
+.hero p{
+    font-size: 18px;
+}
+button{
+    background-color:#d63384;
+    color: black;
+    padding: 12px 25px;
+    border: none;
+    font-size: 16px;
+    border-radius: 25px;
+}
+.products{
+    display: flex;
+    justify-content: center;
+    padding:30px;
+}
+.card{
+    background-color: white;
+    width: 260px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 15px;
+}
+.card span{
+    font-size: 20px;
+
+}
+.card1{
+    background-color: white;
+    width: 260px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.card1 img{
+    width: 100%;
+    border-radius: 15px;
+}
+.card1 span{
+    font-size: 20px;
+}
+
+.card2{
+    background-color: white;
+    width: 260px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.card2 img{
+    width: 100%;
+    border-radius: 15px;
+}
+.card2 span{
+    font-size: 20px;
+}
+
+.card3{
+    background-color: white;
+    width: 260px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.card3 img{
+    width: 100%;
+    border-radius: 15px;
+}
+.card span{
+    font-size: 20px;
+}
+.card{
+    display: flex;
+    margin-top: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 40%;
+}
+.card1{
+    display: flex;
+    margin-top: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 40%;
+}
+.card2{
+    display: flex;
+    margin-top: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 40%;
+}
+.card3{
+    display: flex;
+    margin-top: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 40%;
+}
+
