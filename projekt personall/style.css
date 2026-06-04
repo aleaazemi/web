@@ -17,19 +17,16 @@ header h1{
     
 }
 .header-top{
-    color: aliceblue;
-    font-size: 28px;
-    font-weight: bold;
-    animation: move 2s infinite alternate;
-  
+    display: flex;              /* makes logo + nav in one line */
+    justify-content: space-between;  /* pushes them apart */
+    align-items: center;
+    padding: 0 30px;
 }
 nav{
-    
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding: 15px 30px;
-    
 }
 
 nav ul{
@@ -49,6 +46,9 @@ nav ul li a{
 }
 ul a{
     text-decoration: none;
+}
+.logo{
+    width: 120px;
 }
 
 
@@ -130,6 +130,7 @@ button{
 }
 .card span{
     font-size: 20px;
+    color: black;
 }
 .card{
     display: flex;
@@ -208,4 +209,17 @@ footer ul{
     color: white;
     font-size: 24px;
     margin-left: 100px;
+}
+img{
+    border-radius:50px  ;
+ 
+  
+}
+.logo {
+    width: 120px;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: translateY(-10px);
 }
